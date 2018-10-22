@@ -13,25 +13,7 @@
 </head>
 
 <body>
-    <header>
-        <nav class="container">
-            <a class="logo" href="">
-        <span>L</span>
-        <span>O</span>
-        <span>G</span>
-        <span>O</span>
-      </a>
-            <div class="nav-toggle"></div>
-            <form action="" method="get" id="searchform">
-                <button type="submit"><i>Sign</i></button>
-            </form>
-            <ul id="menu">
-                <li><a href="/">Главная</a></li>
-                <li><a href="pages/trueHackers.php">Портфолио</a></li>
-                <li><a href="pages/about me.php">Об авторе</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php require_once 'includes/header.php';?>
     <div class="container">
         <div class="posts-list">
             <article id="post-1" class="post">
@@ -126,22 +108,7 @@
             </div>
         </aside>
     </div> <!-- конец div class="container"-->
-    <footer>
-        <div class="container">
-            <div class="footer-col"><span>Мой блог © 2016</span></div>
-            <div class="footer-col">
-                <div class="social-bar-wrap">
-                    <a title="Facebook" href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a title="Twitter" href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a title="Pinterest" href="" target="_blank"><i class="fa fa-pinterest"></i></a>
-                    <a title="Instagram" href="" target="_blank"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="footer-col">
-                <a href="mailto:admin@yoursite.ru">Написать письмо</a>
-            </div>
-        </div>
-    </footer>
+    <?php require_once 'includes/footer.php' ?>
     <script>
     $('.nav-toggle').on('click', function() {
         $('#menu').toggleClass('active');

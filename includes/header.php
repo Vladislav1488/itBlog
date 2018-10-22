@@ -12,8 +12,8 @@
         </form>
         <ul id="menu">
             <li><a href="/">Главная</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Об авторе</a></li>
+            <li><a href="../pages/trueHackers.php">Портфолио</a></li>
+            <li><a href="../pages/aboutme.php">Об авторе</a></li>
         </ul>
     </nav>
 </header>
