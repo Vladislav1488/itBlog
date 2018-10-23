@@ -164,7 +164,8 @@ header {
     color:#ffffff;
     font-family:Arial;
     font-size:19px;
-    padding:5px 20px;
+    padding:2px 8px;
+    margin-top: 5px;
     text-decoration:none;
     text-shadow:0px 1px 0px #283966;
 }
